@@ -1,11 +1,16 @@
+
+
 import { Container, Row, Col } from "react-bootstrap";
 import colorSharp from "../assets/img/color-sharp.png";
 
-export const Skills = () => {
 
+export const Skills = () => {
   return (
-    <section className="skill" id="skills">
-      <Container>
+    <section
+      className="skill"
+      id="skills"
+    >
+      <Container style={{ padding: "30px 20px" }}>
         <Row>
           <Col xs={12}>
             <div className="skill-bx">
@@ -61,7 +66,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="Background" />
+    <img className="background-image-left" src={colorSharp} alt="Background" />
     </section>
   );
 };
