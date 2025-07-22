@@ -748,7 +748,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Responsividade específica para 4 cards */
+
 @media (min-width: 1200px) {
   .differential-grid {
     gap: 25px;
@@ -1214,7 +1214,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   margin-top: 20px;
 }
 
-/* Estilos modernos para seções do Skills */
+
 .company-section,
 .mission-section,
 .skills-section,
@@ -1553,19 +1553,19 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   .contact-form-wrapper {
-    padding: 25px; /* Reduzido */
-    max-width: 400px; /* Menor em tablets */
+    padding: 25px;
+    max-width: 400px;
   }
   
   .contact img {
-    width: 100%; /* Aumentado ainda mais */
-    max-width: 550px; /* Aumentado de 450px para 550px */
+    width: 100%;
+    max-width: 550px;
   }
   
   .contact form input, .contact form textarea {
     padding: 14px 18px;
     font-size: 15px;
-    margin-bottom: 6px; /* Reduzido */
+    margin-bottom: 6px;
   }
   
   .contact form button {
@@ -1584,22 +1584,22 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   .contact-img-wrapper {
-    min-height: 280px; /* Aumentado */
+    min-height: 280px;
     margin-bottom: 30px;
   }
   
   .contact img {
-    width: 100%; /* Aumentado ainda mais */
-    max-width: 480px; /* Aumentado de 380px para 480px */
+    width: 100%;
+    max-width: 480px;
   }
   
   .contact-form-wrapper {
-    padding: 20px; /* Reduzido */
-    max-width: 350px; /* Limitado */
+    padding: 20px;
+    max-width: 350px;
   }
   
   .contact form input, .contact form textarea {
-    margin-bottom: 8px; /* Reduzido */
+    margin-bottom: 8px;
   }
 }
 
@@ -1613,19 +1613,19 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   .contact-img-wrapper {
-    display: none; /* Esconder imagem no mobile */
+    display: none;
   }
   
   .contact-form-wrapper {
-    padding: 18px; /* Reduzido */
+    padding: 18px;
     margin: 0 auto;
-    max-width: 450px; /* Reduzido para mobile */
+    max-width: 450px;
   }
   
   .contact form input, .contact form textarea {
     padding: 14px 16px;
     font-size: 15px;
-    margin-bottom: 8px; /* Reduzido de 15px para 8px */
+    margin-bottom: 8px;
   }
   
   .contact form textarea {
@@ -1649,16 +1649,16 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   .contact-form-wrapper {
-    padding: 15px; /* Reduzido */
+    padding: 15px;
     border-radius: 15px;
-    max-width: 350px; /* Limitado */
+    max-width: 350px;
   }
   
   .contact form input, .contact form textarea {
     padding: 12px 14px;
     font-size: 14px;
     border-radius: 10px;
-    margin-bottom: 6px; /* Reduzido */
+    margin-bottom: 6px;
   }
   
   .contact form textarea {
@@ -1689,7 +1689,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   .contact form input, .contact form textarea {
     padding: 12px;
     font-size: 14px;
-    margin-bottom: 6px; /* Reduzido de 12px para 6px */
+    margin-bottom: 6px;
   }
   
   .contact form button {
@@ -1719,7 +1719,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Ajustes para altura da tela */
+
 @media (max-height: 700px) {
   .contact {
     padding: 40px 0 35px 0 !important;
@@ -1780,9 +1780,9 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     padding: 0 30px;
   }
   
-  /* Navbar ajustes */
+
   nav.navbar a.navbar-brand {
-    width: 12%; /* Aumentado para tablets */
+    width: 12%;
   }
   
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -1801,7 +1801,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     margin-left: 8px;
   }
   
-  /* Banner ajustes */
+
   .banner {
     padding: 140px 0 60px 0;
   }
@@ -1821,7 +1821,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     padding: 8px 14px;
   }
   
-  /* Skills ajustes */
+
   .skill-bx {
     padding: 40px 30px;
     margin-top: -40px;
@@ -1837,7 +1837,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Tablets pequenos (768px - 992px) */
+
 @media (max-width: 992px) {
   html {
     font-size: 12px;
@@ -1847,9 +1847,9 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     padding: 0 25px;
   }
   
-  /* Navbar mobile */
+
   nav.navbar a.navbar-brand {
-    width: 10%; /* Aumentado para melhor visibilidade em mobile */
+    width: 10%;
     padding-top: 5px;
     padding-top: 5px;
     padding-left: 10px;
@@ -1877,7 +1877,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     margin: 15px 0;
   }
   
-  /* Banner mobile */
+
   .banner {
     padding: 120px 0 50px 0;
     text-align: center;
@@ -1892,7 +1892,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     font-size: 15px;
   }
   
-  /* Contact mobile */
+
   .contact {
     padding: 60px 0 50px 0 !important;
   }
@@ -1915,7 +1915,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Smartphones (480px - 768px) */
+
 @media (max-width: 768px) {
   html {
     font-size: 11px;
@@ -1927,13 +1927,13 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   
-  /* Contact mobile específico */
+
   .contact {
     padding-top: 100px !important;
     padding-bottom: 80px !important;
   }
   
-  /* Navbar mobile otimizado */
+
   nav.navbar {
     padding: 6px 0;
   }
@@ -1943,7 +1943,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
   
   nav.navbar a.navbar-brand {
-    width: 12%; /* Aumentado para smartphones */
+    width: 12%;
   }
   
   nav.navbar .navbar-toggler-icon {
@@ -1971,7 +1971,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     margin-bottom: 10px;
   }
   
-  /* Banner mobile */
+
   .banner {
     padding: 100px 0 40px 80px;
   }
@@ -2008,7 +2008,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     max-width: 250px;
   }
   
-  /* Skills mobile */
+
   .skill {
     padding: 30px !important;
   }
@@ -2031,7 +2031,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     width: 95%;
   }
   
-  /* Contact mobile */
+
   .contact {
     padding: 50px 0 40px 0 !important;
   }
@@ -2071,7 +2071,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     max-width: 200px;
   }
   
-  /* Footer mobile */
+
   .footer {
     padding: 60px 0 40px 0;
   }
@@ -2111,14 +2111,14 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     margin-top: 15px;
   }
   
-  /* Garantir que o footer seja sempre visível */
+
   .footer {
     display: block !important;
     visibility: visible !important;
   }
 }
 
-/* Smartphones pequenos (320px - 480px) */
+
 @media (max-width: 480px) {
   html {
     font-size: 10px;
@@ -2128,7 +2128,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     padding: 0 20px;
   }
   
-  /* Banner extra pequeno */
+
   .banner {
     padding: 80px 0 30px 0;
   }
@@ -2151,7 +2151,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     max-width: 200px;
   }
   
-  /* Skills extra pequeno */
+
   .skill-bx {
     padding: 25px 15px;
     border-radius: 25px;
@@ -2166,7 +2166,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     margin: 8px 0 30px 0;
   }
   
-  /* Contact extra pequeno */
+
   .contact {
     padding: 40px 0 35px 0 !important;
   }
@@ -2198,7 +2198,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     width: auto;
   }
   
-  /* Footer extra pequeno */
+
   .newsletter-bx {
     padding: 30px 20px;
     border-radius: 25px;
@@ -2216,7 +2216,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     font-size: 11px;
   }
   
-  /* Garantir visibilidade do footer em telas pequenas */
+
   .footer {
     display: block !important;
     visibility: visible !important;
@@ -2224,7 +2224,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Telas muito pequenas (menos de 320px) */
+
 @media (max-width: 320px) {
   .container {
     padding: 0 15px;
@@ -2267,7 +2267,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
     font-size: 16px;
   }
   
-  /* Garantir visibilidade do footer em telas muito pequenas */
+
   .footer {
     display: block !important;
     visibility: visible !important;
@@ -2275,7 +2275,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Orientação paisagem em dispositivos móveis */
+
 @media (max-height: 500px) and (orientation: landscape) {
   .banner {
     padding: 60px 0 20px 0;
@@ -2332,7 +2332,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Ajustes para telas de alta densidade */
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .banner img,
   .contact img {
@@ -2341,7 +2341,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Preferência por movimento reduzido */
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -2360,7 +2360,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Modo escuro adicional */
+
 @media (prefers-color-scheme: dark) {
   ::-webkit-scrollbar-thumb {
     background: #444444;
@@ -2371,7 +2371,7 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Ajustes específicos para animações do menu hambúrguer */
+
 @media (max-width: 768px) {
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
@@ -2390,5 +2390,5 @@ nav.navbar .navbar-toggler:hover .navbar-toggler-icon span {
   }
 }
 
-/* Esconder seção de contato no mobile - REMOVIDO */
-/* A seção de contato agora está otimizada para todas as telas */
+
+

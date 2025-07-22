@@ -42,7 +42,7 @@ export const Projects = () => {
     },
   ];
 
-  // Dividir projetos em grupos de 3
+
   const projectChunks = [];
   for (let i = 0; i < projects.length; i += 3) {
     projectChunks.push(projects.slice(i, i + 3));
