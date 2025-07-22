@@ -10,12 +10,12 @@ export const Skills = () => {
       className="skill"
       id="skills"
     >
-      <Container style={{ padding: "30px 20px" }}>
-        <Row>
+      <Container className="skills-mobile-container">
+        <Row className="skills-mobile-row">
           <Col xs={12}>
-            <div className="skill-bx">
+            <div className="skill-bx" >
               {/* Seção Sobre a Empresa */}
-              <div className="company-section">
+              <div className="company-section" style={{ paddingTop: "30px" }}>
                 <span className="tagline">Sobre a PTEC</span>
                 <h2>Quem Somos</h2>
                 <p>

@@ -1,7 +1,9 @@
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg from "../assets/img/img.jpg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { useState } from "react";
@@ -18,37 +20,25 @@ export const Projects = () => {
       title: "SGA",
       description: "Sistema de Gestão Acadêmica completo que centraliza todas as operações educacionais. Oferece controle de matrículas, notas, frequência e relatórios avançados para instituições de ensino.",
       category: "Educação",
-      imgUrl: projImg,
+      imgUrl: projImg1,
     },
     {
       title: "AVA",
       description: "Ambiente Virtual de Aprendizagem moderno e intuitivo. Plataforma robusta para ensino à distância com ferramentas interativas, acompanhamento de progresso e comunicação integrada.",
       category: "E-learning",
-      imgUrl: projImg,
+      imgUrl: projImg2,
+    },
+    {
+      title: "My Coach",
+      description: "Plataforma personalizada de mentoria e coaching educacional. Onde estudantes podem fazer perguntas e receber planos de estudo personalizados através de inteligência artificial.",
+      category: "Mentoria",
+      imgUrl: projImg3,
     },
     {
       title: "EduFlow",
       description: "Solução inovadora para gestão de fluxos educacionais e processos acadêmicos. Automatiza workflows institucionais e otimiza a experiência de estudantes e professores.",
       category: "Gestão",
-      imgUrl: projImg,
-    },
-    {
-      title: "My Coach",
-      description: "Plataforma personalizada de mentoria e coaching educacional. Conecta estudantes com mentores qualificados através de inteligência artificial para desenvolvimento personalizado.",
-      category: "Mentoria",
-      imgUrl: projImg,
-    },
-    {
-      title: "Reppub",
-      description: "Repositório digital avançado para publicações acadêmicas e científicas. Sistema completo de catalogação, busca inteligente e distribuição de conteúdo educacional.",
-      category: "Repositório",
-      imgUrl: projImg,
-    },
-    {
-      title: "Backoffice",
-      description: "Sistema administrativo robusto para gestão completa de operações educacionais. Interface unificada para controle financeiro, recursos humanos e infraestrutura institucional.",
-      category: "Administração",
-      imgUrl: projImg,
+      imgUrl: projImg3,
     },
   ];
 
