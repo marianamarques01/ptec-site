@@ -23,25 +23,20 @@ export const Contact = () => {
       })
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setButtonText("Enviando...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Enviar Mensagem");
-    let result = await response.json();
+    const ptecEmail = "mariana.msamp@gmail.com";
+    const subject = encodeURIComponent("Contato pelo site PTEC");
+    const body = encodeURIComponent(
+      `Nome: ${formDetails.firstName} ${formDetails.lastName}\n` +
+      `E-mail: ${formDetails.email}\n` +
+      `Telefone: ${formDetails.phone}\n` +
+      `Mensagem: ${formDetails.message}`
+    );
+    window.location.href = `mailto:${ptecEmail}?subject=${subject}&body=${body}`;
     setFormDetails(formInitialDetails);
-    if (result.code === 200) {
-      setStatus({ success: true, message: 'Mensagem enviada com sucesso!'});
-    } else {
-      setStatus({ success: false, message: 'Algo deu errado. Tente novamente mais tarde.'});
-    }
-  };
+    setStatus({ success: true, message: 'Seu aplicativo de e-mail foi aberto para envio!' });
+  }
 
   return (
     <section className="contact" id="connect">

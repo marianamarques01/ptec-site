@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.jpeg";
+
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -35,10 +37,30 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
+      title: "Lis 360",
+      description: "LIS 360 centraliza múltiplos canais, aplica IA no fluxo de atendimento e permite que profissionais autônomos atuem sob demanda com certificação integrada.",
+      imgUrl: projImg4,
+    },
+    {
       title: "EduFlow",
       description: "Solução inovadora para gestão de fluxos educacionais e processos acadêmicos. Automatiza workflows institucionais e otimiza a experiência de estudantes e professores.",
       category: "Gestão",
-      imgUrl: projImg3,
+      imgUrl: projImg1,
+    },
+    {
+      title: "Grafana",
+      description: "Dashboard inteligente que monitora em tempo real a quantidade de alunos por curso, consumo de conteúdo e engajamento. Permite adaptações visuais e operacionais conforme a necessidade do projeto.",
+      imgUrl: projImg1,
+    },
+    {
+      title: "PDF Creator",
+      description: "Gera documentos em PDF automaticamente com base em parâmetros definidos pelo usuário, aplicando layout, estrutura e conteúdo personalizados com alta precisão.",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Mychat",
+      description: "Chatbot integrado que centraliza dúvidas frequentes do público, agiliza o atendimento e organiza informações para a equipe com histórico e categorização automatizada.",
+      imgUrl: projImg1,
     },
   ];
 

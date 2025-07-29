@@ -1,21 +1,19 @@
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Newsletter } from "./Newsletter";
 
 export const MailchimpForm = () => {
-  const postUrl = `${process.env.REACT_APP_MAILCHIMP_URL}?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const ptecEmail = "whatsapp@ptec.dev";
+
+  const handleValidated = ({ EMAIL }) => {
+    const subject = encodeURIComponent("Quero receber novidades da PTEC");
+    const body = encodeURIComponent(`Olá, gostaria de receber novidades da PTEC! Meu e-mail: ${EMAIL}`);
+    window.location.href = `mailto:${ptecEmail}?subject=${subject}&body=${body}`;
+  };
 
   return (
-    <>
-      <MailchimpSubscribe
-        url={postUrl}
-        render={({ subscribe, status, message }) => (
-          <Newsletter
-            status={status}
-            message={message}
-            onValidated={formData => subscribe(formData)}
-            />
-        )}
-        />
-    </>
-  )
+    <Newsletter
+      status={null}
+      message={null}
+      onValidated={handleValidated}
+    />
+  );
 }
