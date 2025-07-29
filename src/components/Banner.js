@@ -9,10 +9,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(150 - Math.random() * 50); // Mais suave
+  const [delta, setDelta] = useState(150 - Math.random() * 50);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Educação", "Soluções"];
-  const period = 3000; // Pausa mais longa entre palavras
+  const period = 3000;
 
   useEffect(() => {
     let ticker = setInterval(() => {

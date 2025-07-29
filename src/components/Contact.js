@@ -42,7 +42,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="justify-content-center">
-          {/* Header Section */}
+
           <Col xs={12} className="text-center mb-5">
             <TrackVisibility>
               {({ isVisible }) =>
@@ -57,10 +57,10 @@ export const Contact = () => {
             </TrackVisibility>
           </Col>
 
-          {/* Content Section */}
+
           <Col xs={12}>
             <Row className="align-items-center">
-              {/* Image Column */}
+
               <Col xs={12} lg={6} className="mb-4 mb-lg-0">
                 <TrackVisibility>
                   {({ isVisible }) =>
@@ -78,14 +78,14 @@ export const Contact = () => {
                 </TrackVisibility>
               </Col>
 
-              {/* Form Column */}
+
               <Col xs={12} lg={6}>
                 <TrackVisibility>
                   {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
                       <div className="contact-form-wrapper">
                         <form onSubmit={handleSubmit}>
-                          {/* Name Fields Row */}
+
                           <Row className="mb-3">
                             <Col xs={12} sm={6} className="mb-3 mb-sm-0">
                               <input 
@@ -109,7 +109,7 @@ export const Contact = () => {
                             </Col>
                           </Row>
 
-                          {/* Contact Fields Row */}
+
                           <Row className="mb-3">
                             <Col xs={12} sm={6} className="mb-3 mb-sm-0">
                               <input 
@@ -132,7 +132,7 @@ export const Contact = () => {
                             </Col>
                           </Row>
 
-                          {/* Message Field */}
+
                           <Row className="mb-3">
                             <Col xs={12}>
                               <textarea 
@@ -146,7 +146,7 @@ export const Contact = () => {
                             </Col>
                           </Row>
 
-                          {/* Submit Button */}
+
                           <Row className="mb-3">
                             <Col xs={12}>
                               <button type="submit" className="btn btn-primary w-100">
@@ -155,7 +155,7 @@ export const Contact = () => {
                             </Col>
                           </Row>
 
-                          {/* Status Message */}
+
                           {status.message && (
                             <Row>
                               <Col xs={12}>

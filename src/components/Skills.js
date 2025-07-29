@@ -14,7 +14,7 @@ export const Skills = () => {
         <Row className="skills-mobile-row">
           <Col xs={12}>
             <div className="skill-bx" >
-              {/* Seção Sobre a Empresa */}
+
               <div className="company-section" style={{ paddingTop: "30px" }}>
                 <span className="tagline">Sobre a PTEC</span>
                 <h2>Quem Somos</h2>
@@ -31,7 +31,7 @@ export const Skills = () => {
                 </p>
               </div>
 
-              {/* Seção Diferencial */}
+
               <div className="differential-section">
                 <span className="tagline">Nosso Diferencial</span>
                 <h2>Por que Escolher a PTEC?</h2>
