@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![PTec Logo](public/favicon.svg)
-
 **Transformando vidas por meio da inovação digital**
 
 [![React](https://img.shields.io/badge/React-18.1.0-blue.svg)](https://reactjs.org/)
@@ -172,21 +170,6 @@ O projeto é totalmente responsivo e testado em:
 3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 📞 Contato
-
-**PTec - Inovação em Soluções e Educação**
-
-- 🌐 Website: [https://ptec.com.br](#)
-- 📧 Email: contato@ptec.com.br
-- 💼 LinkedIn: [PTec](#)
-- 📱 WhatsApp: [+55 (11) 99999-9999](#)
-
----
 
 <div align="center">
 
