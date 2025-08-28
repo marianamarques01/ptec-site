@@ -9,8 +9,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[🌐 Demo ao Vivo](#) • [📧 Contato](#contato) • [📋 Documentação](#documentação)
-
 </div>
 
 ---
