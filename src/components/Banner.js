@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { HashLink } from 'react-router-hash-link';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -58,7 +59,9 @@ export const Banner = () => {
                 <span className="tagline">Bem-vindos à PTEC</span>
                 <h1>{`Inovação em`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Soluções", "Educação" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A PTec busca transformar vidas por meio da inovação digital, criando experiências imersivas e conectadas, que utilizam tecnologias de ponta, como inteligência artificial, para oferecer soluções personalizadas e de impacto.</p>
-                  <button className="faleconosco" onClick={() => console.log('connect')}>Fale Conosco <ArrowRightCircle size={18} /></button>
+                  <HashLink to="#connect" smooth>
+                    <button className="faleconosco">Fale Conosco <ArrowRightCircle size={18} /></button>
+                  </HashLink>
               </div>}
             </TrackVisibility>
           </Col>
