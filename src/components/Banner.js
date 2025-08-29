@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem-vindos à PTEC</span>
-                <h1>{`Inovação em`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Soluções", "Educação" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Inovação em`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Soluções", "Educação" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A PTec busca transformar vidas por meio da inovação digital, criando experiências imersivas e conectadas, que utilizam tecnologias de ponta, como inteligência artificial, para oferecer soluções personalizadas e de impacto.</p>
                   <button className="faleconosco" onClick={() => console.log('connect')}>Fale Conosco <ArrowRightCircle size={18} /></button>
               </div>}

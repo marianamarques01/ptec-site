@@ -15,7 +15,11 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/company/pectec/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="LinkedIn" /></a>
             </div>
-            <p>Copyright 2025. All Rights Reserved</p>
+            <p>
+              Copyright 2025. All Rights Reserved | v1.0.0<br />
+              <a href="/privacidade" style={{ color: '#fff', marginRight: '10px' }}>Política de Privacidade</a>
+              <a href="/termos" style={{ color: '#fff' }}>Termos de Uso</a>
+            </p>
           </Col>
         </Row>
       </Container>
