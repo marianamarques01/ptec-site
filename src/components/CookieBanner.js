@@ -18,20 +18,10 @@ const CookieBanner = () => {
   if (!visible) return null;
 
   return (
-    <div style={{
-      position: "fixed",
-      bottom: 0,
-      left: 0,
-      width: "100%",
-      background: "#222",
-      color: "#fff",
-      padding: 16,
-      zIndex: 9999,
-      textAlign: "center"
-    }}>
-      Este site utiliza cookies para melhorar sua experiência. 
-      <button onClick={handleAccept} style={{ margin: "0 8px" }}>Aceitar</button>
-      <button onClick={handleDecline}>Recusar</button>
+    <div className="cookie-banner">
+      Este site utiliza cookies para melhorar sua experiência.
+      <button type="button" onClick={handleAccept} className="cookie-btn-accept">Aceitar</button>
+      <button type="button" onClick={handleDecline} className="cookie-btn-decline">Recusar</button>
     </div>
   );
 };

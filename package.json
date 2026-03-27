@@ -2,7 +2,7 @@
   "name": "ptec-site",
   "version": "1.0.0",
   "private": true,
-  "author": "Equipe PTEC",
+  "author": "Equipe ANNECT",
   "email": "contato@ptec.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

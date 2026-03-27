@@ -17,7 +17,7 @@ export const Newsletter = ({ onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Receba novidades sobre tecnologia, inovação e desenvolvimento de software!<br></br>Fique por dentro do universo PTEC.</h3>
+              <h3>Receba novidades sobre tecnologia, inovação e desenvolvimento de software!<br></br>Fique por dentro do universo ANNECT.</h3>
             </Col>
             <Col md={6} xl={7}>
               <div className="new-email-bx">

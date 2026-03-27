@@ -16,10 +16,10 @@ export const Skills = () => {
             <div className="skill-bx" >
 
               <div className="company-section" style={{ paddingTop: "30px" }}>
-                <span className="tagline">Sobre a PTEC</span>
+                <span className="tagline">Sobre a ANNECT</span>
                 <h2>Quem Somos</h2>
                 <p>
-                  A PTEC é uma empresa líder em soluções tecnológicas, dedicada a transformar 
+                  A ANNECT é uma empresa líder em soluções tecnológicas, dedicada a transformar 
                   ideias em realidade através da inovação e excelência técnica. Com anos de 
                   experiência no mercado, oferecemos serviços especializados em desenvolvimento 
                   de software, consultoria em TI e soluções digitais personalizadas.
@@ -34,7 +34,7 @@ export const Skills = () => {
 
               <div className="differential-section">
                 <span className="tagline">Nosso Diferencial</span>
-                <h2>Por que Escolher a PTEC?</h2>
+                <h2>Por que Escolher a ANNECT?</h2>
                 <Row className="differential-grid justify-content-center g-3">
                   <Col xl={5} lg={6} md={6} sm={12} className="differential-item">
                     <div className="differential-card">

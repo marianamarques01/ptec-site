@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const ptecEmail = "mariana.msamp@gmail.com";
-    const subject = encodeURIComponent("Contato pelo site PTEC");
+    const subject = encodeURIComponent("Contato pelo site ANNECT");
     const body = encodeURIComponent(
       `Nome: ${formDetails.firstName} ${formDetails.lastName}\n` +
       `E-mail: ${formDetails.email}\n` +

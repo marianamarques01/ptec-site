@@ -17,7 +17,7 @@ export const Banner = () => {
 
   useEffect(() => {
     let ticker = setInterval(() => {
-      tick();   
+      tick();
     }, delta);
 
     return () => { clearInterval(ticker) };
@@ -31,7 +31,7 @@ export const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2.5); 
+      setDelta(prevDelta => prevDelta / 2.5);
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -42,7 +42,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(200); 
+      setDelta(200);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -50,14 +50,24 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
+      <div className="banner-glow banner-glow-1"></div>
+      <div className="banner-glow banner-glow-2"></div>
+      <div className="banner-glow banner-glow-3"></div>
+      <div className="banner-grid"></div>
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Bem-vindos à PTEC</span>
-                <h1>{`Inovação em`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Soluções", "Educação" ]'><span className="wrap">{text}</span></span></h1>
+                <span className="tagline">Bem-vindos à ANNECT</span>
+                <h1 className="banner-title">
+                  Inovação em
+                  <br />
+                  <span className="txt-rotate" data-period="1000" data-rotate='[ "Soluções", "Educação" ]'>
+                    <span className="wrap">{text}</span>
+                  </span>
+                </h1>
                   <p>A PTec busca transformar vidas por meio da inovação digital, criando experiências imersivas e conectadas, que utilizam tecnologias de ponta, como inteligência artificial, para oferecer soluções personalizadas e de impacto.</p>
                   <HashLink to="#connect" smooth>
                     <button className="faleconosco">Fale Conosco <ArrowRightCircle size={18} /></button>
