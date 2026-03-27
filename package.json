@@ -1,9 +1,9 @@
 {
-  "name": "ptec-site",
+  "name": "annect-site",
   "version": "1.0.0",
   "private": true,
   "author": "Equipe ANNECT",
-  "email": "contato@ptec.com",
+  "email": "contato@annect.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

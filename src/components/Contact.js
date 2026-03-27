@@ -25,7 +25,7 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const ptecEmail = "mariana.msamp@gmail.com";
+    const annectEmail = "mariana.msamp@gmail.com";
     const subject = encodeURIComponent("Contato pelo site ANNECT");
     const body = encodeURIComponent(
       `Nome: ${formDetails.firstName} ${formDetails.lastName}\n` +
@@ -33,7 +33,7 @@ export const Contact = () => {
       `Telefone: ${formDetails.phone}\n` +
       `Mensagem: ${formDetails.message}`
     );
-    window.location.href = `mailto:${ptecEmail}?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${annectEmail}?subject=${subject}&body=${body}`;
     setFormDetails(formInitialDetails);
     setStatus({ success: true, message: 'Seu aplicativo de e-mail foi aberto para envio!' });
   }

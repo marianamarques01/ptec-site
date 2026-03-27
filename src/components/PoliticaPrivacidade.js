@@ -11,7 +11,7 @@ const PoliticaPrivacidade = () => (
     <h2>Cookies</h2>
     <p>Utilizamos cookies para melhorar sua experiência. Você pode aceitar ou recusar o uso de cookies.</p>
     <h2>Contato</h2>
-    <p>Em caso de dúvidas, entre em contato: contato@ptec.com</p>
+    <p>Em caso de dúvidas, entre em contato: contato@annect.com</p>
   </div>
 );
 

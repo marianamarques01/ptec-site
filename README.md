@@ -59,8 +59,8 @@ npm -v   # v6.0.0 ou superior
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/ptec-site.git
-cd ptec-site
+git clone https://github.com/seu-usuario/annect-site.git
+cd annect-site
 ```
 
 ### 2. Instale as dependências
@@ -92,7 +92,7 @@ Servidor rodando na porta: 5000
 ## 📁 Estrutura do Projeto
 
 ```
-ptec-site/
+annect-site/
 ├── public/
 │   ├── favicon.svg          # Favicon personalizado
 │   ├── index.html          # Template HTML

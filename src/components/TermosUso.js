@@ -11,7 +11,7 @@ const TermosUso = () => (
     <h2>Alterações</h2>
     <p>Os termos podem ser alterados a qualquer momento sem aviso prévio.</p>
     <h2>Contato</h2>
-    <p>Em caso de dúvidas, entre em contato: contato@ptec.com</p>
+    <p>Em caso de dúvidas, entre em contato: contato@annect.com</p>
   </div>
 );
 
