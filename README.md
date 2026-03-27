@@ -15,7 +15,7 @@
 
 ## 📋 Sobre o Projeto
 
-A **PTec** é uma empresa líder em soluções tecnológicas, dedicada a transformar ideias em realidade através da inovação e excelência técnica. Este repositório contém o código-fonte do site institucional da empresa, desenvolvido com tecnologias modernas e foco na experiência do usuário.
+A **Annect** é uma empresa líder em soluções tecnológicas, dedicada a transformar ideias em realidade através da inovação e excelência técnica. Este repositório contém o código-fonte do site institucional da empresa, desenvolvido com tecnologias modernas e foco na experiência do usuário.
 
 ### 🎯 Objetivo
 
@@ -171,7 +171,7 @@ O projeto é totalmente responsivo e testado em:
 
 <div align="center">
 
-**Desenvolvido com ❤️ pela equipe PTec**
+**Desenvolvido com ❤️ pela equipe Annect**
 
 *Transformando ideias em realidade através da tecnologia*
 

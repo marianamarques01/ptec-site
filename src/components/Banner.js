@@ -65,7 +65,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </span>
                 </h1>
-                  <p>A PTec busca transformar vidas por meio da inovação digital, criando experiências imersivas e conectadas, que utilizam tecnologias de ponta, como inteligência artificial, para oferecer soluções personalizadas e de impacto.</p>
+                  <p>A Annect busca transformar vidas por meio da inovação digital, criando experiências imersivas e conectadas, que utilizam tecnologias de ponta, como inteligência artificial, para oferecer soluções personalizadas e de impacto.</p>
                   <HashLink to="#connect" smooth>
                     <button className="faleconosco">Fale Conosco <ArrowRightCircle size={18} /></button>
                   </HashLink>
